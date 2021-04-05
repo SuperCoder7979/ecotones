@@ -55,6 +55,7 @@ public class DrySteppeBiome extends EcotonesBiomeBuilder {
     }
 
     public DrySteppeBiome(float depth, float scale, double hilliness, double volatility) {
+        this.category(Biome.Category.DESERT);
         this.surfaceBuilder(EcotonesSurfaces.DRY_STEPPE, SurfaceBuilder.GRASS_CONFIG);
 
         this.depth(depth);

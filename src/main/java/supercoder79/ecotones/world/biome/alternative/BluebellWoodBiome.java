@@ -46,6 +46,7 @@ public class BluebellWoodBiome extends EcotonesBiomeBuilder {
     }
 
     public BluebellWoodBiome(float depth, float scale, boolean clearing, boolean flat) {
+        this.category(Biome.Category.FOREST);
         this.surfaceBuilder(SurfaceBuilder.DEFAULT, SurfaceBuilder.GRASS_CONFIG);
 
         this.depth(depth);

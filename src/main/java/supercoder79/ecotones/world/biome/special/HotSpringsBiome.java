@@ -31,6 +31,7 @@ public class HotSpringsBiome extends EcotonesBiomeBuilder {
     }
 
     protected HotSpringsBiome() {
+        this.category(Biome.Category.PLAINS);
         this.surfaceBuilder(EcotonesSurfaces.HOT_SPRINGS_BUILDER, SurfaceBuilder.GRASS_CONFIG);
 
         this.depth(0.25F);

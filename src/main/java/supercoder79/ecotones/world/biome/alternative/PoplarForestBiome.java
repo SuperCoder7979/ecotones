@@ -61,6 +61,7 @@ public class PoplarForestBiome extends EcotonesBiomeBuilder {
     }
 
     public PoplarForestBiome(float depth, float scale, int oakTreeSpawnAmt, int birchTreeSpawnAmt, int shrubSpawnAmt, double hilliness, double volatility) {
+        this.category(Biome.Category.FOREST);
         this.surfaceBuilder(SurfaceBuilder.DEFAULT, SurfaceBuilder.GRASS_CONFIG);
 
         this.depth(depth);

@@ -44,6 +44,7 @@ public class RoseFieldBiome extends EcotonesBiomeBuilder {
     }
 
     public RoseFieldBiome() {
+        this.category(Biome.Category.PLAINS);
         this.surfaceBuilder(SurfaceBuilder.DEFAULT, SurfaceBuilder.GRASS_CONFIG);
 
         this.depth(0.2F);

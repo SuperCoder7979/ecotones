@@ -42,6 +42,7 @@ public class TemperateGrasslandBiome extends EcotonesBiomeBuilder {
     }
 
     public TemperateGrasslandBiome(float depth, float scale) {
+        this.category(Biome.Category.PLAINS);
         this.surfaceBuilder(SurfaceBuilder.DEFAULT, SurfaceBuilder.GRASS_CONFIG);
 
         this.depth(depth);

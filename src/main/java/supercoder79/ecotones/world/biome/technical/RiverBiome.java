@@ -26,6 +26,7 @@ public class RiverBiome extends EcotonesBiomeBuilder {
     }
 
     protected RiverBiome() {
+        this.category(Biome.Category.RIVER);
         this.surfaceBuilder(SurfaceBuilder.DEFAULT, SurfaceBuilder.GRASS_CONFIG);
 
         this.depth(-0.5F);

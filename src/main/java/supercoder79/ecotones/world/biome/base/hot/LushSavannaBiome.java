@@ -38,6 +38,7 @@ public class LushSavannaBiome extends EcotonesBiomeBuilder {
     }
 
     protected LushSavannaBiome(float depth, float scale, double hilliness, double volatility) {
+        this.category(Biome.Category.SAVANNA);
         this.surfaceBuilder(SurfaceBuilder.DEFAULT, SurfaceBuilder.GRASS_CONFIG);
         this.precipitation(Biome.Precipitation.RAIN);
         this.depth(depth);

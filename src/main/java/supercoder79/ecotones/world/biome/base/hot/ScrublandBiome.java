@@ -44,6 +44,7 @@ public class ScrublandBiome extends EcotonesBiomeBuilder {
     }
 
     protected ScrublandBiome(float depth, float scale, double hilliness, double volatility) {
+        this.category(Biome.Category.DESERT);
         this.surfaceBuilder(EcotonesSurfaces.DESERT_SCRUB_BUILDER, SurfaceBuilder.GRASS_CONFIG);
         this.precipitation(Biome.Precipitation.NONE);
         this.depth(depth);

@@ -42,6 +42,7 @@ public class TropicalRainforestBiome extends EcotonesBiomeBuilder {
     }
 
     protected TropicalRainforestBiome(float depth, float scale, double hilliness, double volatility) {
+        this.category(Biome.Category.JUNGLE);
         this.surfaceBuilder(SurfaceBuilder.DEFAULT, SurfaceBuilder.GRASS_CONFIG);
         this.precipitation(Biome.Precipitation.RAIN);
         this.depth(depth);

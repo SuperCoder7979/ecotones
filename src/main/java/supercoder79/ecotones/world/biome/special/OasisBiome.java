@@ -32,6 +32,7 @@ public class OasisBiome extends EcotonesBiomeBuilder {
 
 
     protected OasisBiome() {
+        this.category(Biome.Category.JUNGLE);
         this.surfaceBuilder(SurfaceBuilder.DEFAULT, SurfaceBuilder.GRASS_CONFIG);
 
         this.depth(-0.15F);

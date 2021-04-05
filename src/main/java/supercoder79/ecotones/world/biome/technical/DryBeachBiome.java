@@ -29,6 +29,7 @@ public class DryBeachBiome extends EcotonesBiomeBuilder {
     }
 
     protected DryBeachBiome() {
+        this.category(Biome.Category.BEACH);
         this.surfaceBuilder(SurfaceBuilder.DEFAULT, SurfaceBuilder.SAND_CONFIG);
 
         this.depth(-0.025F);

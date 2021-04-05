@@ -48,6 +48,7 @@ public class ShieldTaigaBiome extends EcotonesBiomeBuilder {
 
 
     protected ShieldTaigaBiome(float depth, float scale, double hilliness, double volatility) {
+        this.category(Biome.Category.TAIGA);
         this.surfaceBuilder(EcotonesSurfaces.SHIELD, SurfaceBuilder.GRASS_CONFIG);
 
         this.depth(depth);

@@ -43,6 +43,7 @@ public class DesertBiome extends EcotonesBiomeBuilder {
     }
 
     protected DesertBiome(float depth, float scale, double hilliness, double volatility) {
+        this.category(Biome.Category.DESERT);
         this.surfaceBuilder(SurfaceBuilder.DEFAULT, SurfaceBuilder.SAND_CONFIG);
         this.precipitation(Biome.Precipitation.NONE);
         this.depth(depth);

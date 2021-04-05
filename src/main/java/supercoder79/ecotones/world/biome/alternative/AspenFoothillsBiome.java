@@ -47,6 +47,7 @@ public class AspenFoothillsBiome extends EcotonesBiomeBuilder {
     }
 
     public AspenFoothillsBiome(float depth, float scale, double hilliness, double volatility, boolean clearing) {
+        this.category(Biome.Category.FOREST);
         this.surfaceBuilder(EcotonesSurfaces.GRASS_MOUNTAIN, SurfaceBuilder.GRASS_CONFIG);
 
         this.depth(depth);

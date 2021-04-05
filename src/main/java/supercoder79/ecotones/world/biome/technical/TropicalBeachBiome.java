@@ -47,6 +47,7 @@ public class TropicalBeachBiome extends EcotonesBiomeBuilder {
     }
 
     protected TropicalBeachBiome() {
+        this.category(Biome.Category.BEACH);
         this.surfaceBuilder(EcotonesSurfaces.BEACH, SurfaceBuilder.SAND_CONFIG);
 
         this.depth(-0.025f);

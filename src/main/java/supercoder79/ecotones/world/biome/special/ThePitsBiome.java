@@ -35,6 +35,7 @@ public class ThePitsBiome extends EcotonesBiomeBuilder {
     }
 
     protected ThePitsBiome(float height, boolean isEdge) {
+        this.category(Biome.Category.EXTREME_HILLS);
         this.surfaceBuilder(EcotonesSurfaces.DELETE_WATER_BUILDER, SurfaceBuilder.GRASS_CONFIG);
 
         this.depth(height);

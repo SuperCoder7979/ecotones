@@ -54,6 +54,7 @@ public class GreenSpiresBiome extends EcotonesBiomeBuilder {
 
 
     protected GreenSpiresBiome() {
+        this.category(Biome.Category.JUNGLE);
         this.surfaceBuilder(EcotonesSurfaces.GREEN_SPIRES_BUILDER, SurfaceBuilder.GRASS_CONFIG);
 
         this.depth(0.2f);

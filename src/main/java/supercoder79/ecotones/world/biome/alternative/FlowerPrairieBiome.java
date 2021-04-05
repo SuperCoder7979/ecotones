@@ -40,6 +40,7 @@ public class FlowerPrairieBiome extends EcotonesBiomeBuilder {
     }
 
     public FlowerPrairieBiome(float depth, float scale) {
+        this.category(Biome.Category.PLAINS);
         this.surfaceBuilder(SurfaceBuilder.DEFAULT, SurfaceBuilder.GRASS_CONFIG);
 
         this.depth(depth);

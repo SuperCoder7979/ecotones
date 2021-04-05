@@ -43,6 +43,7 @@ public class BirchForestBiome extends EcotonesBiomeBuilder {
     }
 
     public BirchForestBiome(float depth, float scale, double hilliness, double volatility) {
+        this.category(Biome.Category.FOREST);
         this.surfaceBuilder(SurfaceBuilder.DEFAULT, SurfaceBuilder.GRASS_CONFIG);
 
         this.depth(depth);

@@ -28,6 +28,7 @@ public class BlessedSpringsBiome extends EcotonesBiomeBuilder {
     }
 
     protected BlessedSpringsBiome() {
+        this.category(Biome.Category.PLAINS);
         this.surfaceBuilder(EcotonesSurfaces.BLESSED_SPRINGS_BUILDER, SurfaceBuilder.GRASS_CONFIG);
 
         this.depth(0.25F);

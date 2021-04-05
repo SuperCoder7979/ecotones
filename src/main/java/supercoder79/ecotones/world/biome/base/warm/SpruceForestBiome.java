@@ -41,6 +41,7 @@ public class SpruceForestBiome extends EcotonesBiomeBuilder {
     }
 
     protected SpruceForestBiome(float depth, float scale, double hilliness, double volatility) {
+        this.category(Biome.Category.FOREST);
         this.surfaceBuilder(SurfaceBuilder.DEFAULT, SurfaceBuilder.GRASS_CONFIG);
         this.precipitation(Biome.Precipitation.NONE);
         this.depth(depth);

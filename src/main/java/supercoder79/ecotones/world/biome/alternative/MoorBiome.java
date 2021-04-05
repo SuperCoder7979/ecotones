@@ -41,6 +41,7 @@ public class MoorBiome extends EcotonesBiomeBuilder {
     }
 
     public MoorBiome(float depth, float scale, double hilliness, double volatility) {
+        this.category(Biome.Category.PLAINS);
         this.surfaceBuilder(SurfaceBuilder.DEFAULT, SurfaceBuilder.GRASS_CONFIG);
 
         this.depth(depth);

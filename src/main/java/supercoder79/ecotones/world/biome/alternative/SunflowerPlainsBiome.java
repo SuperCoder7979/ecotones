@@ -44,6 +44,7 @@ public class SunflowerPlainsBiome extends EcotonesBiomeBuilder {
     }
 
     public SunflowerPlainsBiome(float depth, float scale) {
+        this.category(Biome.Category.PLAINS);
         this.surfaceBuilder(SurfaceBuilder.DEFAULT, SurfaceBuilder.GRASS_CONFIG);
 
         this.depth(depth);

@@ -57,6 +57,7 @@ public class WastelandBiome extends EcotonesBiomeBuilder {
 
 
     protected WastelandBiome(float treeChance, float depth, float scale, double hilliness, double volatility) {
+        this.category(Biome.Category.DESERT);
         this.surfaceBuilder(EcotonesSurfaces.WASTELAND_BUILDER, new TernarySurfaceConfig(EcotonesBlocks.DRIED_DIRT.getDefaultState(), EcotonesBlocks.DRIED_DIRT.getDefaultState(), Blocks.GRAVEL.getDefaultState()));
 
         this.depth(depth);

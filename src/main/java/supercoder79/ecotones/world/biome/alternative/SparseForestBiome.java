@@ -41,6 +41,7 @@ public class SparseForestBiome extends EcotonesBiomeBuilder {
     }
 
     public SparseForestBiome(float depth, float scale, double hilliness, double volatility) {
+        this.category(Biome.Category.PLAINS);
         this.surfaceBuilder(SurfaceBuilder.DEFAULT, SurfaceBuilder.GRASS_CONFIG);
 
         this.depth(depth);

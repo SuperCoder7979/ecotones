@@ -52,6 +52,7 @@ public class WoodlandThicketBiome extends EcotonesBiomeBuilder {
     }
 
     public WoodlandThicketBiome(float depth, float scale, double hilliness, double volatility, int treeAmt) {
+        this.category(Biome.Category.FOREST);
         this.surfaceBuilder(SurfaceBuilder.DEFAULT, SurfaceBuilder.GRASS_CONFIG);
 
         this.depth(depth);

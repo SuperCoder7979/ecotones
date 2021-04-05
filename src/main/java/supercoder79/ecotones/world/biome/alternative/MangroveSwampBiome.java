@@ -45,6 +45,7 @@ public class MangroveSwampBiome extends EcotonesBiomeBuilder {
     }
 
     protected MangroveSwampBiome() {
+        this.category(Biome.Category.SWAMP);
         this.surfaceBuilder(SurfaceBuilder.DEFAULT, SurfaceBuilder.GRASS_CONFIG);
 
         this.depth(-0.32F);

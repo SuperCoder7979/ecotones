@@ -44,6 +44,7 @@ public class CloverFieldsBiome extends EcotonesBiomeBuilder {
     }
 
     public CloverFieldsBiome(float depth, float scale, int treeSpawnAmt, int shrubSpawnAmt, double hilliness, double volatility) {
+        this.category(Biome.Category.TAIGA);
         this.surfaceBuilder(SurfaceBuilder.DEFAULT, SurfaceBuilder.GRASS_CONFIG);
 
         this.depth(depth);

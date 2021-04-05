@@ -54,6 +54,7 @@ public class SpruceMarshBiome extends EcotonesBiomeBuilder {
     }
 
     public SpruceMarshBiome(float depth, float scale, boolean thicket) {
+        this.category(Biome.Category.SWAMP);
         this.surfaceBuilder(SurfaceBuilder.DEFAULT, SurfaceBuilder.GRASS_CONFIG);
 
         this.depth(depth);

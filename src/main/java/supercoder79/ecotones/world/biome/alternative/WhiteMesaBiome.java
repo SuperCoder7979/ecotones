@@ -42,6 +42,7 @@ public class WhiteMesaBiome extends EcotonesBiomeBuilder {
     }
 
     public WhiteMesaBiome(float depth, float scale, double hilliness, double volatility) {
+        this.category(Biome.Category.EXTREME_HILLS);
         this.surfaceBuilder(EcotonesSurfaces.WHITE_MESA, SurfaceBuilder.GRASS_CONFIG);
 
         this.depth(depth);

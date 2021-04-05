@@ -34,6 +34,7 @@ public class SuperVolcanicBiome extends EcotonesBiomeBuilder {
     }
 
     protected SuperVolcanicBiome() {
+        this.category(Biome.Category.NONE);
         this.surfaceBuilder(EcotonesSurfaces.SUPERVOLCANIC_BUILDER, SurfaceBuilder.GRASS_CONFIG);
 
         this.depth(0.25F);

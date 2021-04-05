@@ -35,6 +35,7 @@ public class UluruBiome extends EcotonesBiomeBuilder {
 
 
     protected UluruBiome() {
+        this.category(Biome.Category.MESA);
         this.surfaceBuilder(EcotonesSurfaces.ULURU_BUILDER, SurfaceBuilder.BADLANDS_CONFIG);
 
         this.depth(3.5f);

@@ -40,6 +40,7 @@ public class SavannaMesaBiome extends EcotonesBiomeBuilder {
     }
 
     public SavannaMesaBiome(float depth, float scale, double hilliness, double volatility) {
+        this.category(Biome.Category.SAVANNA);
         this.surfaceBuilder(EcotonesSurfaces.MESA, SurfaceBuilder.GRASS_CONFIG);
 
         this.depth(depth);

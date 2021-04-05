@@ -44,6 +44,7 @@ public class PinePeaksBiome extends EcotonesBiomeBuilder {
 
 
     protected PinePeaksBiome() {
+        this.category(Biome.Category.FOREST);
         this.surfaceBuilder(SurfaceBuilder.DEFAULT, SurfaceBuilder.GRASS_CONFIG);
 
         this.depth(0.5F);

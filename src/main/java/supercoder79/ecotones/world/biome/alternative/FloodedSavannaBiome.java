@@ -41,6 +41,7 @@ public class FloodedSavannaBiome extends EcotonesBiomeBuilder {
 
 
     protected FloodedSavannaBiome() {
+        this.category(Biome.Category.SAVANNA);
         this.surfaceBuilder(SurfaceBuilder.DEFAULT, SurfaceBuilder.GRASS_CONFIG);
 
         this.depth(-0.09F);

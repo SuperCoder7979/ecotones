@@ -51,6 +51,7 @@ public class DeadSpruceForestBiome extends EcotonesBiomeBuilder {
     }
 
     public DeadSpruceForestBiome(float depth, float scale, boolean clearing) {
+        this.category(Biome.Category.FOREST);
         this.surfaceBuilder(SurfaceBuilder.DEFAULT, SurfaceBuilder.GRASS_CONFIG);
 
         this.depth(depth);

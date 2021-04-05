@@ -42,6 +42,7 @@ public class DrySavannaBiome extends EcotonesBiomeBuilder {
     }
 
     public DrySavannaBiome(float depth, float scale, double hilliness, double volatility, boolean thicket) {
+        this.category(Biome.Category.SAVANNA);
         this.surfaceBuilder(SurfaceBuilder.DEFAULT, SurfaceBuilder.GRASS_CONFIG);
 
         this.depth(depth);

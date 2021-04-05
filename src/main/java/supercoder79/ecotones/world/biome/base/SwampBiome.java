@@ -34,6 +34,7 @@ public class SwampBiome extends EcotonesBiomeBuilder {
     }
 
     protected SwampBiome(float depth, float scale) {
+        this.category(Biome.Category.SWAMP);
         this.surfaceBuilder(EcotonesSurfaces.PEAT_SWAMP_BUILDER, SurfaceBuilder.SAND_CONFIG);
         this.precipitation(Biome.Precipitation.RAIN);
         this.depth(depth);

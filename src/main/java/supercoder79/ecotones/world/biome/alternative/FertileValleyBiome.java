@@ -44,6 +44,7 @@ public class FertileValleyBiome extends EcotonesBiomeBuilder {
     }
 
     public FertileValleyBiome(float depth, float scale, double treeAmt, double wideShrubAmt) {
+        this.category(Biome.Category.PLAINS);
         this.surfaceBuilder(SurfaceBuilder.DEFAULT, SurfaceBuilder.GRASS_CONFIG);
 
         this.depth(depth);

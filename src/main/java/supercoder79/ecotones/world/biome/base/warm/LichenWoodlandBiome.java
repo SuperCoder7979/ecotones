@@ -42,6 +42,7 @@ public class LichenWoodlandBiome extends EcotonesBiomeBuilder {
     }
 
     protected LichenWoodlandBiome(float depth, float scale, double hilliness, double volatility) {
+        this.category(Biome.Category.TAIGA);
         this.surfaceBuilder(SurfaceBuilder.DEFAULT, SurfaceBuilder.GRASS_CONFIG);
         this.precipitation(Biome.Precipitation.NONE);
         this.depth(depth);

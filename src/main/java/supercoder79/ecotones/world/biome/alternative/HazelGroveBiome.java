@@ -57,6 +57,7 @@ public class HazelGroveBiome extends EcotonesBiomeBuilder {
 
 
     protected HazelGroveBiome(boolean clearing, boolean hilly) {
+        this.category(Biome.Category.FOREST);
         this.surfaceBuilder(SurfaceBuilder.DEFAULT, SurfaceBuilder.GRASS_CONFIG);
 
         this.depth(hilly ? 0.9f : 0.25f);

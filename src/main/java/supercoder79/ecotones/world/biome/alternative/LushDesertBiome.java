@@ -41,6 +41,7 @@ public class LushDesertBiome extends EcotonesBiomeBuilder {
 
 
     protected LushDesertBiome(float depth, float scale, double hilliness, double volatility) {
+        this.category(Biome.Category.DESERT);
         this.surfaceBuilder(SurfaceBuilder.DEFAULT, SurfaceBuilder.SAND_CONFIG);
 
         this.depth(depth);

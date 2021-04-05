@@ -26,6 +26,7 @@ public class GravelBeachBiome extends EcotonesBiomeBuilder {
     }
 
     protected GravelBeachBiome() {
+        this.category(Biome.Category.BEACH);
         this.surfaceBuilder(SurfaceBuilder.DEFAULT, SurfaceBuilder.GRAVEL_CONFIG);
 
         this.depth(-0.025F);
